@@ -1,0 +1,21 @@
+.content-hero{padding-bottom:22px}
+.content-hero h1{font-size:clamp(38px,9vw,56px)}
+.content-hero .micro{max-width:360px;margin-inline:auto}
+.example-link{display:flex;justify-content:center;align-items:center;gap:12px;min-height:48px;font-size:13px;text-underline-offset:5px;margin-top:12px;color:var(--muted)}
+.content-example{border-top:1px solid var(--line)}
+.section-lead{color:var(--muted);font-size:15px;margin-bottom:22px}
+.content-example .mentor{margin-top:0}
+.content-example blockquote{margin:0}
+.content-example .prompt-followup{margin-top:20px}
+.content-example .prompt-followup strong{color:var(--text);font-weight:600}
+.content-benefits{padding-top:36px}
+.studio-proof{padding-top:0}
+.studio-proof .hero-image{margin:0 0 28px}
+.content-pricing{padding-top:12px}
+.core-focus{background:#1c3026;border-color:#8bc7a9}
+.core-focus .price{margin-top:12px}
+.pro-option{border-bottom:1px solid var(--line);padding:28px 0}
+.pro-option>p:not(.plan-label):not(.micro){font-size:14px;color:var(--muted);margin:12px 0 20px}
+.pro-option h3{font-size:23px}
+.closing .closing-price{font-size:12px;margin:12px 0 0}
+@media(max-width:359px){.content-hero h1{font-size:36px}.content-example .chat{padding:16px}.content-example blockquote{padding:14px;font-size:15px}}
