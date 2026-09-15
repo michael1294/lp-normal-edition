@@ -1,2 +1,19 @@
 .mentor-initial{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border:1px solid #648974;border-radius:50%;background:#2a3e33;color:var(--accent);font-family:Georgia,serif;font-size:24px}
 [data-landing-page="kundinnenkommunikation"] .studio-proof{padding-top:32px}
+.demo-video{position:relative;isolation:isolate;max-width:340px;margin:0 auto 24px;aspect-ratio:4/5;border:1px solid #648974;border-radius:12px;overflow:hidden;background:#192520}
+.demo-video>img{width:100%;height:100%;object-fit:cover;object-position:54% center}
+.demo-video:after{content:"";position:absolute;inset:0;background:linear-gradient(#08151030 20%,#08151020 45%,#081510ed 100%);z-index:0}
+.demo-badge{position:absolute;top:14px;left:14px;padding:5px 10px;border-radius:5px;background:#10241bea;color:var(--accent);font-size:11px;font-weight:700;z-index:1}
+.demo-play{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);width:64px;height:64px;border:1px solid #ffffffb3;border-radius:50%;display:grid;place-items:center;background:#101919b3;font-size:24px;padding-left:4px;z-index:1}
+.demo-video figcaption{position:absolute;left:20px;right:20px;bottom:20px;font-family:inherit;font-style:normal;z-index:1}
+.demo-video figcaption span,.demo-video figcaption strong,.demo-video figcaption small{display:block}
+.demo-video figcaption span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.demo-video figcaption strong{font-size:23px;line-height:1.2;letter-spacing:-.025em;font-weight:600}
+.demo-video figcaption small{font-size:11px;color:#cfdbd4;margin-top:10px}
+.demo-result{border:1px solid #43564b;background:#14221b;border-radius:12px;padding:20px}
+.demo-result .mentor{margin:0 0 14px;align-items:flex-start}.demo-result .mentor>div{min-width:0}.demo-result .mentor strong{font-size:15px;line-height:1.4}
+.demo-disclosure{font-size:12px;line-height:1.5;color:var(--muted);margin-bottom:18px}
+.demo-result blockquote{margin:0;padding:18px;background:#e4f2e9;border-radius:0 10px 10px;color:#173524;font-size:17px;line-height:1.7}
+.demo-following{font-size:13px;color:var(--muted);margin-top:16px}
+.demo-prompt{margin:8px 0 24px}.demo-prompt summary{font-size:14px}.demo-prompt>div p{padding-bottom:16px}.demo-cta{margin-top:24px}
+.mentor .mentor-initial{display:grid;place-items:center}
